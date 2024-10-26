@@ -1,0 +1,54 @@
+2024-10-26 17:43:26.376 [info] 
+
+
+
+
+2024-10-26 17:43:26.400 [info] Extension host agent started.
+2024-10-26 17:43:26.521 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-10-26 17:43:26.538 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-10-26 17:43:26.577 [info] [<unknown>][28877148][ExtensionHostConnection] New connection established.
+2024-10-26 17:43:26.579 [info] [<unknown>][3f5a2d83][ManagementConnection] New connection established.
+2024-10-26 17:43:26.940 [info] [<unknown>][28877148][ExtensionHostConnection] <27474> Launched Extension Host Process.
+2024-10-26 17:43:32.250 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateIcon (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26067)
+    at D.<computed> (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-26 17:43:32.282 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateTitle (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26017)
+    at D.<computed> (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/ec2-user/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-26 17:43:54.068 [info] [<unknown>][224e1df1][ManagementConnection] New connection established.
+2024-10-26 17:43:54.075 [info] [<unknown>][af5f585e][ExtensionHostConnection] New connection established.
+2024-10-26 17:43:54.080 [info] [<unknown>][af5f585e][ExtensionHostConnection] <27684> Launched Extension Host Process.
+2024-10-26 17:44:22.124 [info] [<unknown>][3f5a2d83][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-10-26 17:48:26.400 [info] New EH opened, aborting shutdown
+2024-10-26 17:48:54.233 [info] [<unknown>][28877148][ExtensionHostConnection] <27474> Extension Host Process exited with code: 0, signal: null.
+2024-10-26 17:58:24.644 [info] [<unknown>][3f5a2d83][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-10-26 17:58:24.644 [info] [<unknown>][e6eff97c][ManagementConnection] New connection established.
+2024-10-26 17:58:24.679 [info] [<unknown>][2e71d363][ExtensionHostConnection] New connection established.
+2024-10-26 17:58:24.684 [info] [<unknown>][2e71d363][ExtensionHostConnection] <30601> Launched Extension Host Process.
+2024-10-26 17:58:59.418 [info] [<unknown>][3d5ed2aa][ExtensionHostConnection] New connection established.
+2024-10-26 17:58:59.424 [info] [<unknown>][3d5ed2aa][ExtensionHostConnection] <30743> Launched Extension Host Process.
+2024-10-26 17:58:59.466 [info] [<unknown>][c59eec76][ManagementConnection] New connection established.
+2024-10-26 17:59:27.354 [info] [<unknown>][e6eff97c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-10-26 18:03:24.830 [info] [<unknown>][3f5a2d83][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
