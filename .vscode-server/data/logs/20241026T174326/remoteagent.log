@@ -52,3 +52,4 @@
 2024-10-26 17:58:59.466 [info] [<unknown>][c59eec76][ManagementConnection] New connection established.
 2024-10-26 17:59:27.354 [info] [<unknown>][e6eff97c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
 2024-10-26 18:03:24.830 [info] [<unknown>][3f5a2d83][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-10-26 18:03:59.517 [info] [<unknown>][2e71d363][ExtensionHostConnection] <30601> Extension Host Process exited with code: 0, signal: null.
